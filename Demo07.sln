@@ -3,18 +3,56 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo07", "Demo07\Demo07.csproj", "{EC9A1D02-CD9A-4E5B-A148-7EA6F6048180}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridApp", "GridApp\GridApp.csproj", "{D99ECA14-9E12-4EEF-B7AD-F47AFCD38789}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayoutApp", "LayoutApp\LayoutApp.csproj", "{1A013233-498E-43F5-90AC-20EF404772DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EC9A1D02-CD9A-4E5B-A148-7EA6F6048180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EC9A1D02-CD9A-4E5B-A148-7EA6F6048180}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EC9A1D02-CD9A-4E5B-A148-7EA6F6048180}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EC9A1D02-CD9A-4E5B-A148-7EA6F6048180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D99ECA14-9E12-4EEF-B7AD-F47AFCD38789}.Debug|ARM.ActiveCfg = Debug|ARM
+		{D99ECA14-9E12-4EEF-B7AD-F47AFCD38789}.Debug|ARM.Build.0 = Debug|ARM
+		{D99ECA14-9E12-4EEF-B7AD-F47AFCD38789}.Debug|ARM.Deploy.0 = Debug|ARM
+		{D99ECA14-9E12-4EEF-B7AD-F47AFCD38789}.Debug|x64.ActiveCfg = Debug|x64
+		{D99ECA14-9E12-4EEF-B7AD-F47AFCD38789}.Debug|x64.Build.0 = Debug|x64
+		{D99ECA14-9E12-4EEF-B7AD-F47AFCD38789}.Debug|x64.Deploy.0 = Debug|x64
+		{D99ECA14-9E12-4EEF-B7AD-F47AFCD38789}.Debug|x86.ActiveCfg = Debug|x86
+		{D99ECA14-9E12-4EEF-B7AD-F47AFCD38789}.Debug|x86.Build.0 = Debug|x86
+		{D99ECA14-9E12-4EEF-B7AD-F47AFCD38789}.Debug|x86.Deploy.0 = Debug|x86
+		{D99ECA14-9E12-4EEF-B7AD-F47AFCD38789}.Release|ARM.ActiveCfg = Release|ARM
+		{D99ECA14-9E12-4EEF-B7AD-F47AFCD38789}.Release|ARM.Build.0 = Release|ARM
+		{D99ECA14-9E12-4EEF-B7AD-F47AFCD38789}.Release|ARM.Deploy.0 = Release|ARM
+		{D99ECA14-9E12-4EEF-B7AD-F47AFCD38789}.Release|x64.ActiveCfg = Release|x64
+		{D99ECA14-9E12-4EEF-B7AD-F47AFCD38789}.Release|x64.Build.0 = Release|x64
+		{D99ECA14-9E12-4EEF-B7AD-F47AFCD38789}.Release|x64.Deploy.0 = Release|x64
+		{D99ECA14-9E12-4EEF-B7AD-F47AFCD38789}.Release|x86.ActiveCfg = Release|x86
+		{D99ECA14-9E12-4EEF-B7AD-F47AFCD38789}.Release|x86.Build.0 = Release|x86
+		{D99ECA14-9E12-4EEF-B7AD-F47AFCD38789}.Release|x86.Deploy.0 = Release|x86
+		{1A013233-498E-43F5-90AC-20EF404772DF}.Debug|ARM.ActiveCfg = Debug|ARM
+		{1A013233-498E-43F5-90AC-20EF404772DF}.Debug|ARM.Build.0 = Debug|ARM
+		{1A013233-498E-43F5-90AC-20EF404772DF}.Debug|ARM.Deploy.0 = Debug|ARM
+		{1A013233-498E-43F5-90AC-20EF404772DF}.Debug|x64.ActiveCfg = Debug|x64
+		{1A013233-498E-43F5-90AC-20EF404772DF}.Debug|x64.Build.0 = Debug|x64
+		{1A013233-498E-43F5-90AC-20EF404772DF}.Debug|x64.Deploy.0 = Debug|x64
+		{1A013233-498E-43F5-90AC-20EF404772DF}.Debug|x86.ActiveCfg = Debug|x86
+		{1A013233-498E-43F5-90AC-20EF404772DF}.Debug|x86.Build.0 = Debug|x86
+		{1A013233-498E-43F5-90AC-20EF404772DF}.Debug|x86.Deploy.0 = Debug|x86
+		{1A013233-498E-43F5-90AC-20EF404772DF}.Release|ARM.ActiveCfg = Release|ARM
+		{1A013233-498E-43F5-90AC-20EF404772DF}.Release|ARM.Build.0 = Release|ARM
+		{1A013233-498E-43F5-90AC-20EF404772DF}.Release|ARM.Deploy.0 = Release|ARM
+		{1A013233-498E-43F5-90AC-20EF404772DF}.Release|x64.ActiveCfg = Release|x64
+		{1A013233-498E-43F5-90AC-20EF404772DF}.Release|x64.Build.0 = Release|x64
+		{1A013233-498E-43F5-90AC-20EF404772DF}.Release|x64.Deploy.0 = Release|x64
+		{1A013233-498E-43F5-90AC-20EF404772DF}.Release|x86.ActiveCfg = Release|x86
+		{1A013233-498E-43F5-90AC-20EF404772DF}.Release|x86.Build.0 = Release|x86
+		{1A013233-498E-43F5-90AC-20EF404772DF}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
